@@ -12,6 +12,11 @@ A Laravel front-end scaffolding preset for [Bootstrap Italia](https://italia.git
 3. Run `php artisan ui bootstrap-italia` for copying preset configuration.
 
 4. Run `npm install && npm run dev` to build the assets.
+
+## Template customization
+
+To customize the template color variables, please edit the file `resources/scss/app.scss`. Follow the instructions at 
+the page https://italia.github.io/bootstrap-italia/docs/come-iniziare/personalizzazione-della-libreria/
    
 
 
