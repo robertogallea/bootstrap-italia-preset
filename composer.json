@@ -1,0 +1,37 @@
+{
+    "name": "robertogallea/bootstrap-italia-preset",
+    "type": "library",
+    "description": "Bootstrap Italia design theme preset for Laravel",
+    "keywords": ["laravel", "bootstrap-italia", "laravel preset"],
+    "authors": [
+        {
+            "name": "Roberto Gallea",
+            "email": "write@robertogallea.com",
+            "homepage": "https://robertogallea.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "laravel/framework": "^7.0|^8.0",
+        "laravel/ui": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0",
+        "orchestra/testbench": "^6.0",
+        "phpstan/phpstan": "^0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "RobertoGallea\\BootstrapItaliaPreset\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RobertoGallea\\BootstrapItaliaPreset\\BootstrapItaliaPresetServiceProvider"
+            ]
+        }
+    }
+}
